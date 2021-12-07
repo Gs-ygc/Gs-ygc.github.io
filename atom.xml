@@ -6,7 +6,7 @@
   <link href="http://gs-ygc.com/atom.xml" rel="self"/>
   
   <link href="http://gs-ygc.com/"/>
-  <updated>2021-12-07T05:01:09.195Z</updated>
+  <updated>2021-12-07T06:02:20.499Z</updated>
   <id>http://gs-ygc.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://gs-ygc.com/2021/12/07/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
     <id>http://gs-ygc.com/2021/12/07/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</id>
     <published>2021-12-07T05:01:06.000Z</published>
-    <updated>2021-12-07T05:01:09.195Z</updated>
+    <updated>2021-12-07T06:02:20.499Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#incldue &lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include &lt;string.h&gt;</span></span><br><span class="line"><span class="comment">#include &lt;math.h&gt;</span></span><br><span class="line"></span><br><span class="line">int <span class="function"><span class="title">main</span></span>()&#123;</span><br><span class="line">int a,d;</span><br><span class="line">a=4;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a);</span><br><span class="line">//c语言中常用函数库</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="测试主题ing"><a href="#测试主题ing" class="headerlink" title="测试主题ing"></a>测试主题ing</h2><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#incldue &lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include &lt;string.h&gt;</span></span><br><span class="line"><span class="comment">#include &lt;math.h&gt;</span></span><br><span class="line"></span><br><span class="line">int <span class="function"><span class="title">main</span></span>()&#123;</span><br><span class="line">int a,d;</span><br><span class="line">a=4;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a);</span><br><span class="line">//c语言中常用函数库</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;学习使用Hexo-Admin&quot;&gt;&lt;a href=&quot;#学习使用Hexo-Admin&quot; class=&quot;headerlink&quot; title=&quot;学习使用Hexo Admin&quot;&gt;&lt;/a&gt;学习使用Hexo Admin&lt;/h2&gt;&lt;p&gt;正在学习如何使用Markdown写文章……不</summary>
+    <summary type="html">&lt;h2 id=&quot;测试主题ing&quot;&gt;&lt;a href=&quot;#测试主题ing&quot; class=&quot;headerlink&quot; title=&quot;测试主题ing&quot;&gt;&lt;/a&gt;测试主题ing&lt;/h2&gt;&lt;p&gt;正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，</summary>
       
     
     
