@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gs-ygc.com/tages/index.html</loc>
+    
+    <lastmod>2021-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/2021/12/07/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</loc>
+    
+    <lastmod>2021-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/about/index-4.html</loc>
+    
+    <lastmod>2021-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/about/index-3.html</loc>
+    
+    <lastmod>2021-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/about/index-2.html</loc>
+    
+    <lastmod>2021-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/about/index-1.html</loc>
+    
+    <lastmod>2021-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gs-ygc.com/about/index.html</loc>
+    
+    <lastmod>2021-12-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0-1/</loc>
     
     <lastmod>2021-12-06</lastmod>
@@ -13,7 +76,7 @@
 
   <url>
     <loc>http://gs-ygc.com/</loc>
-    <lastmod>2021-12-06</lastmod>
+    <lastmod>2021-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -21,7 +84,7 @@
   
   <url>
     <loc>http://gs-ygc.com/tags/test/</loc>
-    <lastmod>2021-12-06</lastmod>
+    <lastmod>2021-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -30,7 +93,7 @@
   
   <url>
     <loc>http://gs-ygc.com/categories/test/</loc>
-    <lastmod>2021-12-06</lastmod>
+    <lastmod>2021-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
