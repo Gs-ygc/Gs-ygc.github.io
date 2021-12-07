@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gs-ygc.com/2021/12/07/%E8%AE%BA%E8%83%A1%E6%98%A5%E6%98%8E%E6%9C%89%E5%A4%9A%E5%B8%85/</loc>
+    
+    <lastmod>2021-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</loc>
     
     <lastmod>2021-12-07</lastmod>
@@ -47,14 +56,14 @@
 
   
   <url>
-    <loc>http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/</loc>
+    <loc>http://gs-ygc.com/tags/test/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://gs-ygc.com/tags/test/</loc>
+    <loc>http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/</loc>
     <lastmod>2021-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Gs</title>
   
-  
+  <subtitle>Gs-ygc</subtitle>
   <link href="http://gs-ygc.com/atom.xml" rel="self"/>
   
   <link href="http://gs-ygc.com/"/>
-  <updated>2021-12-07T07:00:15.673Z</updated>
+  <updated>2021-12-07T11:10:07.370Z</updated>
   <id>http://gs-ygc.com/</id>
   
   <author>
@@ -17,18 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试文章2</title>
-    <link href="http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
-    <id>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</id>
-    <published>2021-12-06T08:27:00.000Z</published>
-    <updated>2021-12-07T07:00:15.673Z</updated>
+    <title>论胡春明有多帅</title>
+    <link href="http://gs-ygc.com/2021/12/07/%E8%AE%BA%E8%83%A1%E6%98%A5%E6%98%8E%E6%9C%89%E5%A4%9A%E5%B8%85/"/>
+    <id>http://gs-ygc.com/2021/12/07/%E8%AE%BA%E8%83%A1%E6%98%A5%E6%98%8E%E6%9C%89%E5%A4%9A%E5%B8%85/</id>
+    <published>2021-12-07T11:04:00.000Z</published>
+    <updated>2021-12-07T11:10:07.370Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>1<br>1<br>1<br>11<br>1<br>1<br>1</p><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    <content type="html"><![CDATA[<h3 id="胡春明真帅"><a href="#胡春明真帅" class="headerlink" title="胡春明真帅"></a>胡春明真帅</h3><h3 id="陈浪浪最屌"><a href="#陈浪浪最屌" class="headerlink" title="陈浪浪最屌"></a>陈浪浪最屌</h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;学习使用Hexo-Admin&quot;&gt;&lt;a href=&quot;#学习使用Hexo-Admin&quot; class=&quot;headerlink&quot; title=&quot;学习使用Hexo Admin&quot;&gt;&lt;/a&gt;学习使用Hexo Admin&lt;/h2&gt;&lt;p&gt;1&lt;br&gt;1&lt;br&gt;1&lt;br&gt;11&lt;br&gt;1</summary>
+    <summary type="html">&lt;h3 id=&quot;胡春明真帅&quot;&gt;&lt;a href=&quot;#胡春明真帅&quot; class=&quot;headerlink&quot; title=&quot;胡春明真帅&quot;&gt;&lt;/a&gt;胡春明真帅&lt;/h3&gt;&lt;h3 id=&quot;陈浪浪最屌&quot;&gt;&lt;a href=&quot;#陈浪浪最屌&quot; class=&quot;headerlink&quot; title=&quot;陈浪浪</summary>
       
     
     
@@ -36,7 +36,7 @@
     <category term="test" scheme="http://gs-ygc.com/categories/test/"/>
     
     
-    <category term="你猜" scheme="http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/"/>
+    <category term="test" scheme="http://gs-ygc.com/tags/test/"/>
     
   </entry>
   
@@ -61,6 +61,30 @@
     
     
     <category term="test" scheme="http://gs-ygc.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试文章2</title>
+    <link href="http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
+    <id>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</id>
+    <published>2021-12-06T08:27:00.000Z</published>
+    <updated>2021-12-07T10:43:52.004Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;学习使用Hexo-Admin&quot;&gt;&lt;a href=&quot;#学习使用Hexo-Admin&quot; class=&quot;headerlink&quot; title=&quot;学习使用Hexo Admin&quot;&gt;&lt;/a&gt;学习使用Hexo Admin&lt;/h2&gt;&lt;p&gt;正在学习如何使用Markdown写文章……不</summary>
+      
+    
+    
+    
+    <category term="test" scheme="http://gs-ygc.com/categories/test/"/>
+    
+    
+    <category term="你猜" scheme="http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/"/>
     
   </entry>
   
