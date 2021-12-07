@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>测试文章2</title>
+      <link href="/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
+      <url>/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>1<br>1<br>1<br>11<br>1<br>1<br>1</p><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 你猜 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试文章</title>
+      <link href="/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0-1/"/>
+      <url>/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0-1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>1<br>1<br>1<br>11<br>1<br>1<br>1</p><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
