@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
+    
+    <lastmod>2021-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://gs-ygc.com/friends/index.html</loc>
     
     <lastmod>2021-12-07</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>http://gs-ygc.com/tags/index.html</loc>
-    
-    <lastmod>2021-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
     
     <lastmod>2021-12-07</lastmod>
     
@@ -76,7 +76,7 @@
 
   <url>
     <loc>http://gs-ygc.com/</loc>
-    <lastmod>2021-12-07</lastmod>
+    <lastmod>2021-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,14 +84,14 @@
   
   <url>
     <loc>http://gs-ygc.com/tags/test/</loc>
-    <lastmod>2021-12-07</lastmod>
+    <lastmod>2021-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/</loc>
-    <lastmod>2021-12-07</lastmod>
+    <lastmod>2021-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -100,7 +100,7 @@
   
   <url>
     <loc>http://gs-ygc.com/categories/test/</loc>
-    <lastmod>2021-12-07</lastmod>
+    <lastmod>2021-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
