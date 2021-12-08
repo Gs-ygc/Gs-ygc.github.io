@@ -6,7 +6,7 @@
   <link href="http://gs-ygc.com/atom.xml" rel="self"/>
   
   <link href="http://gs-ygc.com/"/>
-  <updated>2021-12-08T04:52:11.155Z</updated>
+  <updated>2021-12-08T12:02:03.372Z</updated>
   <id>http://gs-ygc.com/</id>
   
   <author>
@@ -17,42 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0元搭建一个简单的个人博客网站</title>
+    <link href="http://gs-ygc.com/2021/12/08/0%E5%85%83%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/"/>
+    <id>http://gs-ygc.com/2021/12/08/0%E5%85%83%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</id>
+    <published>2021-12-08T08:27:00.000Z</published>
+    <updated>2021-12-08T12:02:03.372Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li><h4 id="为什么选择Hexo"><a href="#为什么选择Hexo" class="headerlink" title="为什么选择Hexo"></a>为什么选择Hexo</h4><ul><li>开源，主题好看，资源多，教程多，可以直接部署到GitHub等。（说人话就是省钱又省事）</li><li>由于我认定我的需求就是用于个人博客，所以我选择使用静态网站，因为不需要经常更新，而且划算（使用GitHub 、码云等，不需要另外购买或者租用服务器，而且自带域名），时下热门的开源静态通用网站框架，无论是 <a href="https://hexo.io/zh-cn/index.html">Hexo</a>（基于Node.js）还是<a href="https://gohugo.io/">Hugo</a>（基于Go语言）,都是能够满足我们的需求，我在这里选择（入坑）了Hexo。</li></ul></li><li><h4 id="Hexo简单介绍"><a href="#Hexo简单介绍" class="headerlink" title="Hexo简单介绍"></a>Hexo简单介绍</h4><ul><li>Hexo 支持 GitHub Flavored Markdown 的所有功能，（学会了也没什么别的用处的）Markdown（你看到的这篇文章就是使用的md），甚至可以整合 Octopress 的大多数插件。</li><li>Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。（引自官方）</li><li>强大的 API 带来无限的可能，与数种模板引擎（EJS，Pug，Nunjucks）和工具（Babel，PostCSS，Less/Sass）轻易集成。（引自官方）</li><li>只需一条指令即可部署到 GitHub Pages, Heroku 或其他平台</li></ul></li></ul><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><ul><li><h4 id="Hexo的基本食用方法（教程）"><a href="#Hexo的基本食用方法（教程）" class="headerlink" title="Hexo的基本食用方法（教程）"></a>Hexo的基本食用方法（教程）</h4><p>…….未完待续</p></li><li><h4 id="可能出现的Error！（本人遇到的）"><a href="#可能出现的Error！（本人遇到的）" class="headerlink" title="可能出现的Error！（本人遇到的）"></a>可能出现的Error！（本人遇到的）</h4><p>……未完待续</p></li><li><h4 id="代码块语法高亮、Markdown基本语法"><a href="#代码块语法高亮、Markdown基本语法" class="headerlink" title="代码块语法高亮、Markdown基本语法"></a>代码块语法高亮、Markdown基本语法</h4><p>……未完待续</p></li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>……未完待续</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&quot;为什么选择Hexo&quot;&gt;&lt;a href=&quot;#为什么选择Hexo&quot; class=&quot;headerlink&quot; title</summary>
+      
+    
+    
+    
+    <category term="杂项" scheme="http://gs-ygc.com/categories/%E6%9D%82%E9%A1%B9/"/>
+    
+    
+    <category term="Hexo" scheme="http://gs-ygc.com/tags/Hexo/"/>
+    
+    <category term="博客网站搭建" scheme="http://gs-ygc.com/tags/%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>生命的意义</title>
     <link href="http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/"/>
     <id>http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</id>
     <published>2021-12-07T11:04:00.000Z</published>
-    <updated>2021-12-08T04:52:11.155Z</updated>
+    <updated>2021-12-08T11:15:49.603Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="论生命的意义"><a href="#论生命的意义" class="headerlink" title="论生命的意义"></a>论生命的意义</h2> <pre class="line-numbers language-c" data-language="c"><code class="language-c">#include &lt;birth.h&gt;#include &lt;death.h&gt;void main( )&#123;     char y1 &#x3D; &#39;卷&#39;;     printf(&quot;死!&quot;)；&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;论生命的意义&quot;&gt;&lt;a href=&quot;#论生命的意义&quot; class=&quot;headerlink&quot; title=&quot;论生命的意义&quot;&gt;&lt;/a&gt;论生命的意义&lt;/h2&gt; &lt;pre class=&quot;line-numbers language-c&quot; data-language=&quot;c&quot;&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="test" scheme="http://gs-ygc.com/categories/test/"/>
-    
-    
-    <category term="test" scheme="http://gs-ygc.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试文章</title>
-    <link href="http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0-1/"/>
-    <id>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0-1/</id>
-    <published>2021-12-06T08:27:00.000Z</published>
-    <updated>2021-12-07T06:56:43.796Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>1<br>1<br>1<br>11<br>1<br>1<br>1</p><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="论生命的意义"><a href="#论生命的意义" class="headerlink" title="论生命的意义"></a>论生命的意义</h2> <pre class="language-c" data-language="c"><code class="language-c">#include &lt;birth.h&gt;#include &lt;death.h&gt;void main( )&#123;     char y1 &#x3D; &#39;卷&#39;;     printf(&quot;%c死!&quot;,y1)；&#125;</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;学习使用Hexo-Admin&quot;&gt;&lt;a href=&quot;#学习使用Hexo-Admin&quot; class=&quot;headerlink&quot; title=&quot;学习使用Hexo Admin&quot;&gt;&lt;/a&gt;学习使用Hexo Admin&lt;/h2&gt;&lt;p&gt;1&lt;br&gt;1&lt;br&gt;1&lt;br&gt;11&lt;br&gt;1</summary>
+    <summary type="html">&lt;h2 id=&quot;论生命的意义&quot;&gt;&lt;a href=&quot;#论生命的意义&quot; class=&quot;headerlink&quot; title=&quot;论生命的意义&quot;&gt;&lt;/a&gt;论生命的意义&lt;/h2&gt; &lt;pre class=&quot;language-c&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;l</summary>
       
     
     
@@ -61,30 +64,6 @@
     
     
     <category term="test" scheme="http://gs-ygc.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试文章2</title>
-    <link href="http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/"/>
-    <id>http://gs-ygc.com/2021/12/06/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</id>
-    <published>2021-12-06T08:27:00.000Z</published>
-    <updated>2021-12-07T10:43:52.004Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="学习使用Hexo-Admin"><a href="#学习使用Hexo-Admin" class="headerlink" title="学习使用Hexo Admin"></a>学习使用Hexo Admin</h2><p>正在学习如何使用Markdown写文章……不得不说，Hexo Admin这是一个很好的Hexo插件，能够实时显示创作的版式，对于我这种小小白来说是非常滴人性化</p><ul><li>“##”的作用演示</li></ul><h2 id="加黑加粗，字最显眼"><a href="#加黑加粗，字最显眼" class="headerlink" title="加黑加粗，字最显眼"></a>加黑加粗，字最显眼</h2><h3 id="次加黑加粗"><a href="#次加黑加粗" class="headerlink" title="次加黑加粗"></a>次加黑加粗</h3><h4 id="次次加黑加粗"><a href="#次次加黑加粗" class="headerlink" title="次次加黑加粗"></a>次次加黑加粗</h4><h5 id="次次次加黑加粗"><a href="#次次次加黑加粗" class="headerlink" title="次次次加黑加粗"></a>次次次加黑加粗</h5><h6 id="最次加黑加粗"><a href="#最次加黑加粗" class="headerlink" title="最次加黑加粗"></a>最次加黑加粗</h6><ul><li>“## xxxx”，用作标题，字体将被加粗、放大处理。</li><li>“- ”，分点叙述，就像现在这样：</li><li>“正在学习如何使用Markdown写文章…..”</li><li>“<a href="https://www.baidu.com/">点击这里，你就可以访问百度哩</a>“</li></ul><pre class="line-numbers language-none"><code class="language-none">#incldue &lt;stdio.h&gt; #include &lt;string.h&gt; #include &lt;math.h&gt;int main()&#123;int a,d;a&#x3D;4;printf(&quot;%d\n&quot;,a);&#x2F;&#x2F;c语言中常用函数库<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;学习使用Hexo-Admin&quot;&gt;&lt;a href=&quot;#学习使用Hexo-Admin&quot; class=&quot;headerlink&quot; title=&quot;学习使用Hexo Admin&quot;&gt;&lt;/a&gt;学习使用Hexo Admin&lt;/h2&gt;&lt;p&gt;正在学习如何使用Markdown写文章……不</summary>
-      
-    
-    
-    
-    <category term="test" scheme="http://gs-ygc.com/categories/test/"/>
-    
-    
-    <category term="你猜" scheme="http://gs-ygc.com/tags/%E4%BD%A0%E7%8C%9C/"/>
     
   </entry>
   
