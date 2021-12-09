@@ -4,8 +4,8 @@
 
 <head>
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
-    <meta name="keywords" content="生命的意义, Gs">
-    <meta name="description" content="生命的意义是什么？">
+    <meta name="keywords" content="简单实现求解两个集合的对称差集(c语言入门c001), Gs">
+    <meta name="description" content="c语言简单实现找出两个集合中不同的元素，对称差集symmetric_difference">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>生命的意义 | Gs</title>
+    <title>简单实现求解两个集合的对称差集(c语言入门c001) | Gs</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -247,12 +247,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://www.runoob.com/wp-content/uploads/2014/09/c-mini-logo.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">生命的意义</h1>
+                    <h1 class="description center-align post-title">简单实现求解两个集合的对称差集(c语言入门c001)</h1>
                 </div>
             </div>
         </div>
@@ -368,8 +368,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/test/">
-                                <span class="chip bg-color">test</span>
+                            <a href="/tags/C%E8%AF%AD%E8%A8%80%E4%B9%A0%E9%A2%98/">
+                                <span class="chip bg-color">C语言习题</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%AF%B9%E7%A7%B0%E5%B7%AE%E9%9B%86/">
+                                <span class="chip bg-color">对称差集</span>
                             </a>
                         
                     </div>
@@ -380,8 +384,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/test/" class="post-category">
-                                test
+                            <a href="/categories/C/" class="post-category">
+                                C
                             </a>
                         
                     </div>
@@ -393,7 +397,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-07
+                    2021-12-08
                 </div>
                 
 
@@ -402,14 +406,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    32
+                    597
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -427,12 +431,58 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="论生命的意义"><a href="#论生命的意义" class="headerlink" title="论生命的意义"></a>论生命的意义</h2> <pre class="language-c" data-language="c"><code class="language-c">#include &lt;birth.h&gt;
-#include &lt;death.h&gt;
+                <h2 id="c语言简单实现求解两个集合的对称差集"><a href="#c语言简单实现求解两个集合的对称差集" class="headerlink" title="c语言简单实现求解两个集合的对称差集"></a>c语言简单实现求解两个集合的对称差集</h2><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><ul>
+<li>c语言简单实现求解两个集合的对称差集symmetric_difference，简称Sy_dif</li>
+<li>对称差集：集合A与集合B的对称差集定义为集合A与集合B中所有不属于A∩B的元素的集合，记为A△B,也就是说A△B={x|x∈A∪B,x∉A∩B}，即A△B=(A∪B)—(A∩B).也就是A△B=（A—B）∪（B—A）<br>很明显，对称差集运算满足交换律：A△B=B△A<br>对称差集也叫做对称差分   </li>
+</ul>
+<h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><ul>
+<li>Windows 11 X64</li>
+<li>Dev c++ 5.11 </li>
+<li>Tdm GCC 4.9.2 64-bit  </li>
+</ul>
+<h4 id="代码区"><a href="#代码区" class="headerlink" title="代码区"></a>代码区</h4><pre class="language-c" data-language="c"><code class="language-c">默认输入格式一定正确，  
+两集合的总个数不超过100，否则请自行修改全局定义  
+集合A表示为a[N1],集合B表示为b[N1 ]
+</code></pre>
 
-void main( )&#123;
-     char y1 &#x3D; &#39;卷&#39;;
-     printf(&quot;%c死!&quot;,y1)；
+ <pre class="language-c" data-language="c"><code class="language-c">&#x2F;*默认输入格式如下
+ input: 1 2 3 4 5 6 7 &#39;回车&#39;
+        ^z &#39;回车&#39;
+        1 3 5 &#39;回车&#39;
+        ^z &#39;回车&#39; 
+output:	2  4   6   7
+*&#x2F;
+#include &lt;stdio.h&gt;
+
+int c[100] &#x3D; &#123;&#125;,N1&#x3D;100,N2&#x3D;100; &#x2F;&#x2F;数组c储存对称差集，N1,N2可以用作函数之间的通信 
+
+void main() &#123;
+	int Sy_dif(int* a, int* b);&#x2F;&#x2F;函数声明 
+    int a[N1], b[N2],i,k&#x3D;0;
+	i &#x3D; 0;&#x2F;&#x2F;初始化 
+    while (~scanf_s(&quot;%d&quot;, a + i)) i++; N1&#x3D;i;&#x2F;&#x2F;从键盘读入i个数到数组a中，且N1为a中元素的个数 
+    i &#x3D; 0;&#x2F;&#x2F;初始化 
+    while (~scanf_s(&quot;%d&quot;, b + i)) i++; N2&#x3D;i;&#x2F;&#x2F;从键盘读入i个数到数组b中，且N2为a中元素的个数 
+    i &#x3D; 0;&#x2F;&#x2F;初始化 
+    k &#x3D; Sy_dif( a, b);
+    while (i &lt; k &amp;&amp; k) printf(&quot;%-3d&quot;, c[i++]);   &#x2F;&#x2F;输出对称差集
+&#125;  
+
+int Sy_dif(int* a, int* b) &#123;    &#x2F;&#x2F;函数Sy-dif实现写入对称差集到c中
+    int h &#x3D; 0, i, j, k;
+    for (i &#x3D; 0; i &lt; N1; i++) &#123;  &#x2F;&#x2F;集合a遍历b，将a中不包含在b中元素送到c 
+        k &#x3D; 0;
+        for (j &#x3D; 0; j &lt; N2; j++) 
+            if (a[i] !&#x3D; b[j]) k++;
+        if (k &#x3D;&#x3D; N2) c[h++] &#x3D; a[i];      
+    &#125;
+    for (j &#x3D; 0; j &lt; N2; j++) &#123;  &#x2F;&#x2F;集合b遍历a，将b中不包含在a中元素送到c 
+        k &#x3D; 0;
+        for (i &#x3D; 0; i &lt; N1; i++) 
+            if (b[j] !&#x3D; a[i]) k++;
+        if (k &#x3D;&#x3D; N1) c[h++] &#x3D; b[j];   
+    &#125;
+    return (h);&#x2F;&#x2F;函数返回对称差集的中元素个数 
 &#125;</code></pre>
                 
             </div>
@@ -449,7 +499,7 @@ void main( )&#123;
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Gs</a>
+                    <a href="/about" rel="external nofollow noreferrer">Gs-ygc</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -459,7 +509,7 @@ void main( )&#123;
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/">http://gs-ygc.com/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</a>
+                    <a href="http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c001/">http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c001/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -472,7 +522,7 @@ void main( )&#123;
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Gs</a>
+                    <a href="/about" target="_blank">Gs-ygc</a>
                     !
                 </span>
             </div>
@@ -497,8 +547,12 @@ void main( )&#123;
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/test/">
-                                    <span class="chip bg-color">test</span>
+                                <a href="/tags/C%E8%AF%AD%E8%A8%80%E4%B9%A0%E9%A2%98/">
+                                    <span class="chip bg-color">C语言习题</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%AF%B9%E7%A7%B0%E5%B7%AE%E9%9B%86/">
+                                    <span class="chip bg-color">对称差集</span>
                                 </a>
                             
                         </div>
@@ -548,6 +602,62 @@ void main( )&#123;
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c002/">
+                    <div class="card-image">
+                        
+                        <img src="https://www.runoob.com/wp-content/uploads/2014/09/c-mini-logo.png" class="responsive-img" alt="c语言入门c002">
+                        
+                        <span class="card-title">c语言入门c002</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            静态全局变量与普通全局变量
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-08
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/C/" class="post-category">
+                                    C
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%91%98%E5%BD%95%E4%BC%98%E7%A7%80%E6%96%87%E7%AB%A0/">
+                        <span class="chip bg-color">摘录优秀文章</span>
+                    </a>
+                    
+                    <a href="/tags/C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/">
+                        <span class="chip bg-color">C语言变量类型</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F/">
+                        <span class="chip bg-color">静态变量</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2021/12/08/0%E5%85%83%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/">
                     <div class="card-image">
                         
@@ -563,9 +673,9 @@ void main( )&#123;
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-08
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-08
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -587,56 +697,6 @@ void main( )&#123;
                     
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/">
                         <span class="chip bg-color">博客网站搭建</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/12/07/%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="生命的意义">
-                        
-                        <span class="card-title">生命的意义</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            生命的意义是什么？
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/test/" class="post-category">
-                                    test
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/test/">
-                        <span class="chip bg-color">test</span>
                     </a>
                     
                 </div>

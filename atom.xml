@@ -6,7 +6,7 @@
   <link href="http://gs-ygc.com/atom.xml" rel="self"/>
   
   <link href="http://gs-ygc.com/"/>
-  <updated>2021-12-08T12:02:03.372Z</updated>
+  <updated>2021-12-09T06:33:34.675Z</updated>
   <id>http://gs-ygc.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>c语言入门c002</title>
+    <link href="http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c002/"/>
+    <id>http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c002/</id>
+    <published>2021-12-08T12:04:00.000Z</published>
+    <updated>2021-12-09T06:33:34.675Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="注意未完结-摘至网络"><a href="#注意未完结-摘至网络" class="headerlink" title="注意未完结 摘至网络"></a>注意未完结 摘至网络</h2><p>一、程序的内存分配</p><p>一个由C/C++编译的程序占用的内存分为以下几个部分：</p><p>1、栈区（stack）— 由编译器自动分配释放 ，存放函数的参数值，局部变量的值等。其操作方式类似于数据结构中的栈。</p><p>2、堆区（heap） — 一般由程序员分配释放， 若程序员不释放，程序结束时可能由OS回收 。注意它与数据结构中的堆是两回事，分配方式倒是类似于链表。</p><p>3、全局区（静态区）（static）— 全局变量和静态变量的存储是放在一块的，初始化的全局变量和静态变量在一块区域， 未初始化的全局变量和未初始化的静态变量在相邻的另一块区域。程序结束后有系统释放</p><p>4、文字常量区 — 常量字符串就是放在这里的。 程序结束后由系统释放。</p><p>5、程序代码区 — 存放函数体的二进制代码。</p><p> 在C++中，内存分成5个区，他们分别是堆、栈、自由存储区、全局/静态 </p><p>存储区和常量存储区。  </p><p>(1)栈，就是那些由编译器在需要的时候分配，在不需要的时候自动清除的变量 的存储区。里面的变量通常是局部变量、函数参数等。  </p><p>(2)堆，就是那些由new分配的内存块，他们的释放编译器不去管，由我们的应用程序去控制，一般一个new就要对应一个delete。如果程序员没有释放掉， 那么在程序结束后，操作系统会自动回收。  </p><p>(3)自由存储区，就是那些由malloc等分配的内存块，他和堆是十分相似的， 不过它是用free来结束自己的生命的。  </p><p>(4)全局/静态存储区，全局变量和静态变量被分配到同一块内存中，在以前的 C语言中，全局变量又分为初始化的和未初始化的（初始化的全局变量和静态变量在一块区域，未初始化的全局变量与静态变量在相邻的另一块区域，同时未被初始化的对象存储区可以通过void*来访问和操纵，程序结束后由系统自行释 放），在C++里面没有这个区分了，他们共同占用同一块内存区。  </p><p>(5)常量存储区，这是一块比较特殊的存储区，他们里面存放的是常量，不允许 修改（当然，你要通过非正当手段也可以修改，而且方法很多）  </p><p>举一个例子：<br>    void f() { int* p=new int[5]; }<br>    这条短短的一句话就包含了堆与栈，看到new，我们首先就应该想到，我们分配了一块堆内存，那么指针p呢？他分配的是一块栈内存，所以这句话的意思就是：在栈内存中存放了一个指向一块堆内存的指针p。在程序会先确定在堆中分配内存的大小，然后调用operator new分配内存，然后返回这块内存的首地址，放入栈中 。</p><p>堆是向高地址位扩展，而栈是向低地址位扩展：</p><pre class="language-c" data-language="c"><code class="language-c">int main()&#123;int *i &#x3D; new int(5);int *j &#x3D; new int(6);int a &#x3D; 5;int b &#x3D; 6;cout &lt;&lt; &quot;i指向的地址：&quot;&lt;&lt;i &lt;&lt; endl;cout &lt;&lt; &quot;j指向的地址：&quot;&lt;&lt;j &lt;&lt; endl;cout &lt;&lt; &quot;a的地址：&quot;&lt;&lt;&amp;a &lt;&lt; endl;cout &lt;&lt; &quot;b的地址:&quot;&lt;&lt;&amp;b &lt;&lt; endl;delete i;return 0;&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;注意未完结-摘至网络&quot;&gt;&lt;a href=&quot;#注意未完结-摘至网络&quot; class=&quot;headerlink&quot; title=&quot;注意未完结 摘至网络&quot;&gt;&lt;/a&gt;注意未完结 摘至网络&lt;/h2&gt;&lt;p&gt;一、程序的内存分配&lt;/p&gt;
+&lt;p&gt;一个由C/C++编译的程序占用的内存分为以</summary>
+      
+    
+    
+    
+    <category term="C" scheme="http://gs-ygc.com/categories/C/"/>
+    
+    
+    <category term="摘录优秀文章" scheme="http://gs-ygc.com/tags/%E6%91%98%E5%BD%95%E4%BC%98%E7%A7%80%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="C语言变量类型" scheme="http://gs-ygc.com/tags/C%E8%AF%AD%E8%A8%80%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B/"/>
+    
+    <category term="静态变量" scheme="http://gs-ygc.com/tags/%E9%9D%99%E6%80%81%E5%8F%98%E9%87%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单实现求解两个集合的对称差集(c语言入门c001)</title>
+    <link href="http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c001/"/>
+    <id>http://gs-ygc.com/2021/12/08/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8c001/</id>
+    <published>2021-12-08T11:04:00.000Z</published>
+    <updated>2021-12-09T06:35:25.394Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="c语言简单实现求解两个集合的对称差集"><a href="#c语言简单实现求解两个集合的对称差集" class="headerlink" title="c语言简单实现求解两个集合的对称差集"></a>c语言简单实现求解两个集合的对称差集</h2><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><ul><li>c语言简单实现求解两个集合的对称差集symmetric_difference，简称Sy_dif</li><li>对称差集：集合A与集合B的对称差集定义为集合A与集合B中所有不属于A∩B的元素的集合，记为A△B,也就是说A△B={x|x∈A∪B,x∉A∩B}，即A△B=(A∪B)—(A∩B).也就是A△B=（A—B）∪（B—A）<br>很明显，对称差集运算满足交换律：A△B=B△A<br>对称差集也叫做对称差分   </li></ul><h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><ul><li>Windows 11 X64</li><li>Dev c++ 5.11 </li><li>Tdm GCC 4.9.2 64-bit  </li></ul><h4 id="代码区"><a href="#代码区" class="headerlink" title="代码区"></a>代码区</h4><pre class="language-c" data-language="c"><code class="language-c">默认输入格式一定正确，  两集合的总个数不超过100，否则请自行修改全局定义  集合A表示为a[N1],集合B表示为b[N1 ]</code></pre> <pre class="language-c" data-language="c"><code class="language-c">&#x2F;*默认输入格式如下 input: 1 2 3 4 5 6 7 &#39;回车&#39;        ^z &#39;回车&#39;        1 3 5 &#39;回车&#39;        ^z &#39;回车&#39; output:2  4   6   7*&#x2F;#include &lt;stdio.h&gt;int c[100] &#x3D; &#123;&#125;,N1&#x3D;100,N2&#x3D;100; &#x2F;&#x2F;数组c储存对称差集，N1,N2可以用作函数之间的通信 void main() &#123;int Sy_dif(int* a, int* b);&#x2F;&#x2F;函数声明     int a[N1], b[N2],i,k&#x3D;0;i &#x3D; 0;&#x2F;&#x2F;初始化     while (~scanf_s(&quot;%d&quot;, a + i)) i++; N1&#x3D;i;&#x2F;&#x2F;从键盘读入i个数到数组a中，且N1为a中元素的个数     i &#x3D; 0;&#x2F;&#x2F;初始化     while (~scanf_s(&quot;%d&quot;, b + i)) i++; N2&#x3D;i;&#x2F;&#x2F;从键盘读入i个数到数组b中，且N2为a中元素的个数     i &#x3D; 0;&#x2F;&#x2F;初始化     k &#x3D; Sy_dif( a, b);    while (i &lt; k &amp;&amp; k) printf(&quot;%-3d&quot;, c[i++]);   &#x2F;&#x2F;输出对称差集&#125;  int Sy_dif(int* a, int* b) &#123;    &#x2F;&#x2F;函数Sy-dif实现写入对称差集到c中    int h &#x3D; 0, i, j, k;    for (i &#x3D; 0; i &lt; N1; i++) &#123;  &#x2F;&#x2F;集合a遍历b，将a中不包含在b中元素送到c         k &#x3D; 0;        for (j &#x3D; 0; j &lt; N2; j++)             if (a[i] !&#x3D; b[j]) k++;        if (k &#x3D;&#x3D; N2) c[h++] &#x3D; a[i];          &#125;    for (j &#x3D; 0; j &lt; N2; j++) &#123;  &#x2F;&#x2F;集合b遍历a，将b中不包含在a中元素送到c         k &#x3D; 0;        for (i &#x3D; 0; i &lt; N1; i++)             if (b[j] !&#x3D; a[i]) k++;        if (k &#x3D;&#x3D; N1) c[h++] &#x3D; b[j];       &#125;    return (h);&#x2F;&#x2F;函数返回对称差集的中元素个数 &#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;c语言简单实现求解两个集合的对称差集&quot;&gt;&lt;a href=&quot;#c语言简单实现求解两个集合的对称差集&quot; class=&quot;headerlink&quot; title=&quot;c语言简单实现求解两个集合的对称差集&quot;&gt;&lt;/a&gt;c语言简单实现求解两个集合的对称差集&lt;/h2&gt;&lt;h4 id=&quot;问</summary>
+      
+    
+    
+    
+    <category term="C" scheme="http://gs-ygc.com/categories/C/"/>
+    
+    
+    <category term="C语言习题" scheme="http://gs-ygc.com/tags/C%E8%AF%AD%E8%A8%80%E4%B9%A0%E9%A2%98/"/>
+    
+    <category term="对称差集" scheme="http://gs-ygc.com/tags/%E5%AF%B9%E7%A7%B0%E5%B7%AE%E9%9B%86/"/>
+    
+  </entry>
   
   <entry>
     <title>0元搭建一个简单的个人博客网站</title>
